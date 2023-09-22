@@ -1,0 +1,67 @@
+/* pages/shouye/shouye.wxss */
+.s1{
+  height: 300rpx;
+  text-align: center;
+}
+.s2{
+  line-height: 300rpx;
+}
+swiper-item:nth-child(1){
+  background-color: lightblue;
+}
+swiper-item:nth-child(2){
+  background-color: lightcoral;
+}
+swiper-item:nth-child(3){
+  background-color: lightgoldenrodyellow;
+}
+.s3{
+  margin-left: 50rpx;
+  height: max-content;
+  margin-right: 50rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+.s4{
+  width: 210rpx;
+  height: 300rpx;
+}
+.s5{
+  width: 250rpx;
+  font-size: 50rpx;
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.s6{
+  width: 210rpx;
+  height: 300rpx;
+  border: 3rpx solid springgreen;
+}
+.s7{
+  width: 400rpx;
+  height: 300rpx;
+  background-color: teal;
+}
+.s8{
+  margin-right: 50rpx;
+  margin-left: 50rpx;
+}
+.s9{
+  text-align: center;
+  font-size: 70rpx;
+}
+.s10{
+  margin-left: 10rpx;
+  height: 300rpx;
+  background-color: teal;
+  width: 400rpx;
+}
+.s11{
+  margin-left: 50rpx;
+}
+.s12{
+  margin-bottom: 10rpx;
+}

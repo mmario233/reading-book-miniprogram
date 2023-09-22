@@ -1,0 +1,5 @@
+手机号(11位)
+<input bindinput="getZhangHao"></input>
+密码(6-12位)
+<input bindinput="getMiMa"></input>
+<button type="primary" bindtap="zhuCe">注册</button>

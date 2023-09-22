@@ -1,0 +1,22 @@
+/* pages/shujia/shujia.wxss */
+.s1{
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  display: flex;
+  flex-direction: row;
+}
+.s2{
+  margin-right: 25rpx;
+  width: 200rpx;
+  height: 300rpx;
+}
+.s3{
+  width: 200rpx;
+  height: 300rpx;
+}
+.s4{
+  width: 200rpx;
+  height: 300rpx;
+}

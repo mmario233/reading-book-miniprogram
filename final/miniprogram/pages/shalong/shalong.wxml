@@ -1,0 +1,26 @@
+<button bindtap="bindChange">上传</button>
+<view >
+<form bindsubmit="btnSub" >
+   <input name = "bookName" placeholder="请输入书名"></input>
+   <input name = "div" placeholder="请输入标签"></input>
+   <textarea name = "comment" placeholder="请输入评论"></textarea>
+   <button type="primary" form-type="submit">发表</button>
+   <button form-type="reset">重置</button>
+</form>
+</view>
+<view class="title">上传历史</view>
+<view  wx:if="{{comment_list}}" class="code_box">
+    <view class="code_box_record">
+      <view class="code_box_record_title" style="width: 10%;">标签</view>
+      <view class="code_box_record_title" style="width: 65%;">评论</view>
+      <view class="code_box_record_title" style="width: 25%;">详情</view>
+    </view>
+    <view class="line"></view>
+    <view class="code_box_record" wx:for="{{comment_list}}" wx:key="_id">
+      <view class="code_box_record_detail" style="width: 10%;">{{item.div}}</view>
+      <view class="code_box_record_detail" style="width: 65%; height: 180rpx;">{{item.comment}}</view>
+      <view style="width: 25%; margin: auto;">
+        <view id="{{item._id}}" class="detail_button" bindtap="to_detail">查看详情</view>
+      </view>
+    </view>
+  </view>

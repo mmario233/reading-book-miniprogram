@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/demo1/demo1",
+    "pages/register/register",
+    "pages/enter/enter",
+    "pages/home page/home page",
+    "pages/bookshelf/bookshelf",
+    "pages/shalong/shalong",
+    "pages/read/read",
+    "pages/shalong_detail/shalong_detail",
+    "pages/more/more",
+    "pages/muLu/muLu"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": " 书海泛舟",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home page/home page",
+        "text": "首页",
+        "iconPath": "icon/首页.png",
+        "selectedIconPath": "icon/首页-active.png"
+      },
+      {
+        "pagePath": "pages/bookshelf/bookshelf",
+        "text": "书架",
+        "iconPath": "icon/书架.png",
+        "selectedIconPath": "icon/书架-active.png"
+      },
+      {
+        "pagePath": "pages/shalong/shalong",
+        "text": "沙龙",
+        "iconPath": "icon/社区.png",
+        "selectedIconPath": "icon/社区-active.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多",
+        "iconPath": "icon/设置.png",
+        "selectedIconPath": "icon/设置-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

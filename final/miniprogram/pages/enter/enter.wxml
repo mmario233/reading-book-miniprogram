@@ -1,0 +1,5 @@
+手机号
+<input bindinput="getZhangHao"></input>
+密码
+<input bindinput="getMima"></input>
+<button bindtap="logIn" type="primary">登录</button>

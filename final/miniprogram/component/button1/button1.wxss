@@ -1,0 +1,9 @@
+/* component/button1/button1.wxss */
+.s1{
+    width: 150rpx;
+    height:50rpx;
+    border:1rpx solid white;
+    text-align: center;
+    margin-left: 9rpx;
+    margin-top: 10rpx;
+}

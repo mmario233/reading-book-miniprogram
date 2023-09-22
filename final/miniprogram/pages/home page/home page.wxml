@@ -1,0 +1,63 @@
+<!--<view>
+  <label>{{h}}:{{m}}:{{s}}</label>
+</view>
+<view >
+<form bindsubmit="btnSub" >
+   <input name = "book" placeholder="请输入书名"></input>
+   <input name = "author" placeholder="请输入作者"></input>
+   <button type="primary" form-type="submit">上传</button>
+   <button form-type="reset">重置</button>
+</form>
+</view>
+-->
+
+<!-- 轮播图 -->
+<swiper indicator-dots="true" autoplay="true" circular="true" class="s1">
+<swiper-item>
+<view class="s2">A</view>
+</swiper-item>
+<swiper-item>
+<view class="s2">B</view>
+</swiper-item>
+<swiper-item>
+<view class="s2">C</view>
+</swiper-item>
+</swiper>
+
+<!-- 在看 -->
+<view wx:if="{{bookPage}}" bindtap="goRead">
+<view class="s5">在看</view>
+<view class="s3">
+<view class="s6">
+<image src="https://i.bmp.ovh/imgs/2022/01/0d689e6dc0c3283a.jpg" class="s4" ></image>
+</view>
+<view class="s7">名言</view>
+</view>
+<progress class="s8" percent="{{pro}}" show-info />
+</view>
+
+<!-- 好书推荐 -->
+<view class="s9">好书推荐</view>
+<view class="s12">
+  <view class="s3">
+<view class="s6">
+<image src="https://i.bmp.ovh/imgs/2022/01/0d689e6dc0c3283a.jpg" class="s4" ></image>
+</view>
+<view class="s10">书评</view>
+</view>
+<view class="s11">书名</view>
+<view class="s11">作者</view>
+</view>
+
+<view class="s12">
+  <view class="s3">
+<view class="s6">
+<image src="https://i.bmp.ovh/imgs/2022/01/0d689e6dc0c3283a.jpg" class="s4" ></image>
+</view>
+<view class="s10">书评</view>
+</view>
+<view class="s11">书名</view>
+<view class="s11">作者</view>
+</view>
+
+

@@ -1,0 +1,22 @@
+/* pages/shalong_detail/shalong_detail.wxss */
+
+.code_img {
+    width: 96%;
+    height: 300rpx;
+    margin: 15rpx auto 0 auto;
+  }
+  
+  .result_text {
+    width: 100%;
+    padding: 15rpx 0;
+    margin-top: 30rpx;
+    margin-left: 30rpx;
+    color: rgba(0, 0, 0, 0.795);
+  }
+  
+  .result_box {
+    margin: auto;
+    width: 95%;
+    height: 400rpx;
+    background-color: white;
+  }

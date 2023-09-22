@@ -1,0 +1,2 @@
+<button bindtap="dengLu" type="primary">登录</button>
+<button bindtap="zhuCe" type="primary">注册</button>

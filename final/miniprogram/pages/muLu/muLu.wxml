@@ -1,0 +1,6 @@
+<view wx:for="{{list}}">
+<view bindtap="goDetail" data-index="{{index}}">
+<view>第{{index}}节</view>
+<view>{{item}}</view>
+</view>
+</view>

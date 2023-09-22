@@ -1,0 +1,5 @@
+<!--pages/shalong_detail/shalong_detail.wxml-->
+<view class="container">
+  <view class="title">上传详情</view>
+  <scroll-view class="result_box" scroll-y="true">{{comment}}</scroll-view>
+</view>
